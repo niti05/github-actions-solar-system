@@ -60,4 +60,5 @@ jobs:
           with:
             name: Code-Coverage-report
             path: code-coverage.xml
+            retention-days: 10
             
