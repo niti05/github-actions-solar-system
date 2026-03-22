@@ -50,11 +50,11 @@ jobs:
         - name: Install Dependencies
           run: npm install
 
-        - name: Run Code-coverage
+        - name: Code-coverage
           run: npm run code-coverage
           continue-on-error: true
 
-        - name: Uploade code-coverage
+        - name: Upload code-coverage
           uses: actions/upload-artifact@v4
           with:
             name: Code-Coverage-report
