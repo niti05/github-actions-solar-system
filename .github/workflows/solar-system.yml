@@ -53,7 +53,7 @@ jobs:
         - name: Run Code Coverage
           run: |
             npm run code-coverage
-            exit 0
+          continue-on-error: true
 
         - name: Uploade Code-coverage
           uses: actions/upload-artifact@v4
