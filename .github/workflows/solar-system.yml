@@ -98,7 +98,7 @@ jobs:
       environment: development
       steps:
         - name: install Kubernetes cluster
-          uses: helm/kind-action@1
+          uses: helm/kind-action@v1
           
         - name: execute command
           run: |
